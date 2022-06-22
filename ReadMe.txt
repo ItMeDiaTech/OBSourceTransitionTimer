@@ -14,6 +14,9 @@ REQUIRED:
         -Under System Variables, click on 'Path' and hit 'Edit'
         -Hit 'new' and paste Python version >= Python 3.10 Path
         -Hit 'OK' or 'Apply" on all Windows
+-You may need to install simpleobsws
+   -Type 'py -m ensurepip --upgrade' into command line or powershell
+   -Then type 'py -m pip install simpleobsws' (restart the command line or powershell you were using beforehand)
 
 HOW TO USE:
 -The files can be placed anywhere that is readable by your computer / OBS - just make sure they are all together at all times
