@@ -14,4 +14,13 @@ REQUIRED:
         -Under System Variables, click on 'Path' and hit 'Edit'
         -Hit 'new' and paste Python version >= Python 3.10 Path
         -Hit 'OK' or 'Apply" on all Windows
-        -Try again
+
+HOW TO USE:
+-The files can be placed anywhere that is readable by your computer / OBS - just make sure they are all together at all times
+-Import SourceTransitionTimer.py into OBS
+    -This will set and save transitions for sources into a text file to be used by the timer, run later
+-Set transitions using the interface created in OBS Scripts
+-Open TransitionTimerWithWebsockets.py in any text editor
+    -Edit password and port at the top of the file, should have documentation to make it easy to find
+-After timers are created and settings are saved, run the StartTimers.bat file to launch TransitionTimerWithWebsocket.py for you
+-That's all!
